@@ -348,11 +348,11 @@ L.prototype.search = function(a, b, c) {
   let d = [], e;
   let f, g = 0;
   if (c) {
-    a = c.query || a;
     b = c.limit;
     g = c.offset || 0;
     var h = c.context;
     f = c.suggest;
+    a = c.query || a;
   }
   if (a && (a = this.encode("" + a), e = a.length, 1 < e)) {
     c = w();

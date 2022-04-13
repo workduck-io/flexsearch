@@ -1,8 +1,7 @@
 {
-  "name": "flexsearch",
+  "name": "@workduck-io/flexsearch",
   "version": "0.7.31",
   "description": "Next-Generation full text search library with zero dependencies.",
-  "homepage": "https://github.com/nextapps-de/flexsearch/",
   "author": "Thomas Wilkerling",
   "copyright": "Nextapps GmbH",
   "license": "Apache-2.0",
@@ -25,10 +24,7 @@
   "module": "dist/module/index.js",
   "types": "./index.d.ts",
   "preferGlobal": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nextapps-de/flexsearch.git"
-  },
+  "repository": "https://github.com/workduck-io/flexsearch",
   "scripts": {
     "copy": "npm run clean && cpx \"src/**\" tmp/",
     "clean": "npx shx rm -rf tmp && mkdir tmp",
